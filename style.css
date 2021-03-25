@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #007580;
+}
+.carousel-container{
+  width: 50%;
+  height: 600px;
+  background-color: #d3e0ea;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.carousel{
+  width: 90%;
+  height: 100%;
+  background-color: #a1cae2;
+}
+.prev, .next {
+  display: flex;
+  align-items: center;
+}
