@@ -12,13 +12,13 @@
 <body>
   <section class="carousel-container" id="app">
 <div class="prev">
-<i class="fas fa-chevron-left"></i>
+<i @click="prevImg" class="fas fa-chevron-left"></i>
 </div>
 <div class ="carousel">
-<img v-bind:src="images[1]" alt="">
+<img v-bind:src="images[imgIndex]" alt="">
 </div>
 <div class="next">
-  <i class="fas fa-chevron-right"></i>
+  <i @click="nextImg" class="fas fa-chevron-right"></i>
 </div>
   </section>
 
