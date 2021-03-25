@@ -9,7 +9,6 @@ body{
 .carousel-container{
   width: 50%;
   height: 600px;
-  background-color: #d3e0ea;
   margin: 100px auto;
   display: flex;
   justify-content: space-between;
@@ -17,9 +16,21 @@ body{
 .carousel{
   width: 90%;
   height: 100%;
-  background-color: #a1cae2;
+
+}
+.carousel img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
 }
 .prev, .next {
   display: flex;
   align-items: center;
+
+}
+.prev i, .next i {
+    cursor: pointer;
+    font-size: 36px;
+    color: #f0a500;
 }
